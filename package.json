@@ -1,0 +1,12 @@
+{
+  "name": "path-resolver-aebf50",
+  "version": "1.0.0",
+  "description": "A path resolver utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["path-resolver", "utility"],
+  "license": "MIT"
+}
